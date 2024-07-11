@@ -6,12 +6,12 @@ import java.util.List;
 public class ListaTarefa {
     private List<Tarefa> tarefaList;
 
-    public ListaTarefa(List<Tarefa> tarefaList) {
+    public ListaTarefa() {
         this.tarefaList = new ArrayList<>();
     }
 
     public static void main(String[] args) {
-        ListaTarefa listaTarefa = new ListaTarefa(null);
+        ListaTarefa listaTarefa = new ListaTarefa();
         listaTarefa.adicionarTarefa("Tarefa 1");
         listaTarefa.adicionarTarefa("Tarefa 1");
         listaTarefa.adicionarTarefa("Tarefa 2");
